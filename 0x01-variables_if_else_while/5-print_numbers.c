@@ -8,10 +8,12 @@
 */
 int main(void)
 {
-int i = 0;
+int digit = 0;
 while (i <= 9)
-	printf("%i", i);
-	i++;
+{
+printf("%i", digit);
+digit++;
+}
 printf("\n");
 return (0);
 }
