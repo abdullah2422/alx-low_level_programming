@@ -14,7 +14,7 @@ while (digit <= 102) /*102; decimal rep of f*/
 putchar(digit);
 /* after 9 we jump till 96; */
 if (digit == 57)
-digit+= 39;
+digit += 39;
 digit++;
 }
 putchar('\n');
