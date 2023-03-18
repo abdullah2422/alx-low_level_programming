@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-int lastDigit;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-lastDigit = n % 10;
-if (lastDigit > 5)
-printf("%d and is greater than 5\n", n);
-else if (lastDigit < 6 ,n != 0 )
-printf("%d and is less than 6 and not 0\n", n);
-else
-printf("%d and is 0\n", n);
-return (0);
+	int n, digit;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	digit = n % 10;
+	if (digit > 5)
+		printf("Last digit of %i is %i and is greater than 5\n", n, digit);
+	else if (digit == 0 )
+		printf("Last digit of %i is %i and is 0\n", n, digit);
+	else if (digit < 6 && digit != 0)
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
+	return (0);
 }
