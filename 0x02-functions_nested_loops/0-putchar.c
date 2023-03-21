@@ -7,5 +7,6 @@ int  main(void)
  * Return: 0
 */
 {
-    printf("_print");
+printf("_putchar");
+return (0);
 }
