@@ -1,18 +1,27 @@
-#include <limits.h>
 #include <stdio.h>
-#include <main.h>
-int  main(void)
+#include "main.h"
+int main (void){
 /**
  * main - Entry point
  *
  * Return: 0
 */
-{
-	char str[] = "_putchar";
+	char str[] = "-putchar";
 	int ch;
-	for (ch = 0; ch < 8; ch++)
-		_putchar(str[ch]:
-	_putchar('\n');
+	for (ch = 0; ch < 6; ch++)
+		_putcher(str[ch]);
+	_putcher('\n');
+	return (0);
 
-return (0);
+
+
+
+
+
+
+
+
+
+
 }
+
