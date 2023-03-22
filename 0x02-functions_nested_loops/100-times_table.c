@@ -1,11 +1,14 @@
 #include "main.h"
+
 /**
- * print_alphabet - a function that prints the alphabet, in lowercase
+ * main - check the code.
  *
- * Return: 0
+ * Return: Always 0.
 */
-void printTimesTable(int n) {
-    int i, j;
+int main(void)
+{
+    void print_times_table(int n)
+	int i ,j;
     for (i = 0; i <= n; i++) {
         for (j = 0; j <= n; j++) {
             int result = i * j;
