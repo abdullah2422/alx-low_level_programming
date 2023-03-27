@@ -5,17 +5,15 @@
  * main - check the code 
  *
  * Return: Always 0.
- */
+*/
 int main(void)
 {
-    int n;
-    int *ptr
-    n = 402;
-    ptr = &n;
-
-   	
-    printf("n=%d\n", n);
-    *ptr = 98;
-    printf("n=%d\n", n);
-    return (0);
+int n;
+int *ptr;
+n = 402;
+ptr = &n;
+_putchar("n=%d\n", n);
+*ptr = 98;
+_putchar("n=%d\n", n);
+return (0);
 }
