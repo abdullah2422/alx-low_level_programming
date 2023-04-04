@@ -23,8 +23,9 @@ q++;
 }
 if (*q == '\0')
 {
-return i;
+return (i);
 }
 p++;
-return i;
+}
+return (i);
 }
