@@ -22,10 +22,9 @@ break;
 q++;
 }
 if (*q == '\0')
-}
+{
 return i;
 }
 p++;
-}
 return i;
 }
