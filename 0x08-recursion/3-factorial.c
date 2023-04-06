@@ -7,11 +7,16 @@
  */
 int factorial(int n)
 {
-    if (n < 0) {
-        return -1;  // error: factorial of negative numbers is undefined
-    } else if (n == 0) {
-        return 1;   // base case: factorial of 0 is 1
-    } else {
-        return n * factorial(n - 1);  // recursive case: multiply n by factorial of (n-1)
-    }
+if (n < 0)
+{
+return (-1);
+}
+else if (n == 0)
+{
+return 1; 
+}
+else
+{
+return n * factorial(n - 1);
+}
 }
