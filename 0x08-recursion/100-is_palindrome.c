@@ -32,8 +32,8 @@ int main(void)
 char str1[] = "racecar";
 char str2[] = "hello";
 char str3[] = "";
-printf("%d\n", is_palindrome(str1));
-printf("%d\n", is_palindrome(str2));
-printf("%d\n", is_palindrome(str3));
+_putchar("%d\n", is_palindrome(str1));
+_putchar("%d\n", is_palindrome(str2));
+_putchar("%d\n", is_palindrome(str3));
 return (0);
 }
