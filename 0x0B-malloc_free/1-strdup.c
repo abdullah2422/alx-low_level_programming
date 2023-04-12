@@ -6,19 +6,25 @@
  * @str: char
  * Return: 0
  */
-char* _strdup(char* str) {
-    if (str == NULL) {
-        return NULL;
-    }
+char *_strdup(char *str)
+{
+	char *aaa;
+	int i, r = 0;
 
-    size_t len = strlen(str) + 1;
-    char* copy = (char*)malloc(len * sizeof(char));
+	if (str == NULL)
+		return (NULL);
+	i = 0;
+	while (str[i] != '\0')
+		i++;
 
-    if (copy == NULL) {
-        return NULL;
-    }
+	aaa = malloc(sizeof(char) * (i + 1));
 
-    memcpy(copy, str, len);
+	if (aaa == NULL)
+		return (NULL);
 
-    return copy;
+	for (r = 0; str[r]; r++)
+		aaa[r] = str[r];
+
+	return (aaa);
 }
+
