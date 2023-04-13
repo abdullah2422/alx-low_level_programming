@@ -9,11 +9,13 @@
  */
 void *malloc_checked(unsigned int b)
 {
-int i = 0;
-while (str[i] != '\0')
-{
-putchar(str[i]);
-i++;
+	void *ptr;
+
+	ptr = malloc(b);
+
+	if (ptr == NULL)
+		exit(98);
+
+	return (ptr);
 }
-return (ptr);
-}
+
