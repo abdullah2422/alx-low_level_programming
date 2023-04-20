@@ -1,6 +1,6 @@
-0-sum_them_all.c CODE
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
         /**
          * sum_them_all - Returns the sum of all its paramters.
          * @n: The number of paramters passed to the function.
